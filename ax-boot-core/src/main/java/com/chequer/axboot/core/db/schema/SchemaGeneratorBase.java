@@ -37,9 +37,6 @@ public class SchemaGeneratorBase {
     protected EntityManager entityManager;
 
     @Autowired
-    protected LocalContainerEntityManagerFactoryBean localContainerEntityManagerFactoryBean;
-
-    @Autowired
     protected JdbcTemplate jdbcTemplate;
 
     @Autowired
